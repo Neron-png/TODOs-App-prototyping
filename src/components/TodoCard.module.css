@@ -1,0 +1,122 @@
+@keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}
+.todoTitle {
+  display: flex;
+  align-items: center;
+  width: 254px;
+}
+.clockIcon,
+.p,
+.todoTitle {
+  position: relative;
+}
+.clockIcon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.p {
+  margin: 0;
+  font-weight: 500;
+  display: inline-block;
+}
+.frameDiv,
+.time {
+  display: flex;
+  justify-content: flex-start;
+}
+.time {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-sm);
+  font-size: var(--font-size-2xs);
+}
+.frameDiv {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-0);
+}
+.ellipseIcon {
+  position: absolute;
+  top: 0;
+  left: -4px;
+  width: 37px;
+  height: 37px;
+}
+.vectorIcon,
+.vectorIcon1 {
+  position: absolute;
+  height: 58.62%;
+  width: 58.62%;
+  top: 17.24%;
+  right: 22.21%;
+  bottom: 24.14%;
+  left: 19.17%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon1 {
+  height: 6.9%;
+  width: 34.48%;
+  top: 68.97%;
+  left: 43.31%;
+}
+.edit {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 29px;
+  height: 29px;
+  flex-shrink: 0;
+}
+.edit:active {
+  animation: 1s ease 0s infinite normal none scale-down-center;
+  opacity: 1;
+}
+.vectorIcon2 {
+  position: absolute;
+  height: 44.83%;
+  width: 62.07%;
+  top: 27.17%;
+  right: 18.76%;
+  bottom: 28%;
+  left: 19.17%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frameDiv1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+}
+.todo01 {
+  align-self: stretch;
+  border-radius: var(--br-sm);
+  background-color: var(--color-pink);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}

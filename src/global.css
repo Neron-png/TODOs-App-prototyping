@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Icons:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-material-icons: "Material Icons";
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-2xs: 16px;
+  --font-size-xs: 20px;
+  --font-size-sm: 32px;
+  --font-size-base: 36px;
+
+  /* Colors */
+  --color-gray-100: #181818;
+  --color-gray-200: #131313;
+  --color-white: #fff;
+  --color-violet: #777cfd;
+  --color-turquoise-100: #87c588;
+  --color-turquoise-200: #6bbd78;
+  --color-green-100: #6fdc7a;
+  --color-green-200: #69c361;
+  --color-pink: #ff9898;
+
+  /* Gaps */
+  --gap-0: 0px;
+  --gap-sm: 5px;
+  --gap-md: 10px;
+  --gap-lg: 19px;
+
+  /* Paddings */
+  --padding-sm: 10px;
+  --padding-md: 16px;
+  --padding-lg: 64px;
+
+  /* border radiuses */
+  --br-sm: 9px;
+  --br-md: 13px;
+}

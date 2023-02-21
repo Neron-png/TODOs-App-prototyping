@@ -1,0 +1,8 @@
+{
+  "appId": "org.acm.auth.appprototyping",
+  "appName": "TODOs App",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "build",
+  "cordova": {}
+}

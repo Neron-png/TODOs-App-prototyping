@@ -1,0 +1,10 @@
+.homePage {
+  position: fixed;
+  background-color: var(--color-gray-100);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.homePage::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,29 @@
+.frameDiv {
+    position: relative;
+    background-color: var(--color-white);
+    width: 383px;
+    height: 88px;
+    flex-shrink: 0;
+    overflow: hidden;
+    opacity: 0;
+  }
+  .TodoList {
+    position: absolute;
+    width: calc(100% - 50px);
+    height: 100%;
+    /* padding-top: 800px; */
+    top: 100px;
+    right: 25px;
+    left: 25px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 16px;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .TodoList::-webkit-scrollbar {
+    display: none;
+  }

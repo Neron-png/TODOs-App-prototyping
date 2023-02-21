@@ -1,0 +1,58 @@
+.list {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: var(--font-size-base);
+  font-family: var(--font-material-icons);
+  color: var(--color-white);
+  text-align: center;
+}
+.list:hover {
+  color: var(--color-turquoise-200);
+}
+.addCircle,
+.list {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.addCircle:active {
+  color: var(--color-green-100);
+}
+.accountCircle,
+.navBar {
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-violet);
+  font-family: var(--font-material-icons);
+}
+.accountCircle {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  display: inline-block;
+}
+.accountCircle:hover {
+  color: var(--color-turquoise-100);
+}
+.accountCircle:active {
+  color: var(--color-green-200);
+}
+.navBar {
+  position: fixed;
+  width: calc(100% + 2px);
+  right: -2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-gray-200);
+  box-shadow: 0-4px 4px rgba(0, 0, 0, 0.25);
+  height: 67px;
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-lg);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
